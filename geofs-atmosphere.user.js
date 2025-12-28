@@ -21,13 +21,14 @@
     function applyAtmosphere() {
         const scene = geofs.api.viewer.scene;
 
-        scene.skyAtmosphere.brightnessShift = -0.12;
-        scene.skyAtmosphere.saturationShift = 0.18;
+       scene.skyAtmosphere.brightnessShift = -0.18;
+scene.skyAtmosphere.saturationShift = 0.22;
 
-        scene.fog.enabled = true;
-        scene.fog.density = 0.00004;
+scene.fog.enabled = true;
+scene.fog.density = 0.00006;
 
-        scene.light.intensity = 1.08;
+scene.light.intensity = 1.05;
+
     }
 
     wait(() => {
